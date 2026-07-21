@@ -1,0 +1,17 @@
+[functions.wazzup-send-message]
+verify_jwt = false
+
+[functions.wazzup-webhook]
+verify_jwt = false
+
+[functions.wazzup-sync-channels]
+verify_jwt = false
+
+[functions.wazzup-sync-messages]
+verify_jwt = false
+
+[functions.wazzup-sync-templates]
+verify_jwt = true
+
+[functions.admin-manage-users]
+verify_jwt = true
